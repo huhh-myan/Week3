@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>replit</title>
+        <!--<link href="style.css" rel="stylesheet" type="text/css" />-->
+        <style>
+            h4{
+                padding-right: 20px;
+                align-items: center;
+                
+            }
+            .items{
+                display: flex;
+                justify-content: flex-start;;
+            }
+            .deletebtn{
+                padding: 1px;
+                margin: 18px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Todo list</h1>
+
+
+        <div id="todo-list">
+
+            <div  id="todo-1" class="items">
+                <h4 >1. Take class</h4>
+                <button class="deletebtn" id="delete-1">Delete</button>
+            </div>
+
+            <div id="todo-2" class="items">
+                <h4>2. Go out to eat</h4>
+                <button class="deletebtn" id="delete-2">Delete</button>
+            </div>
+            
+            
+        </div>
+
+        <div>
+            <input type="text" id="todo-input"></input>
+            <button id="todo-button">Add Todo</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
